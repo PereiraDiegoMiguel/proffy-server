@@ -23,4 +23,6 @@
 - npm i express
 - npm i @types/express -D
 - npm i knex sqlite3
+- npm i cors
+- npm i  @types/cors
 

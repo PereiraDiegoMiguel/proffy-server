@@ -12,7 +12,7 @@ interface ScheduleItem {
 export default class ClassesControlller {
 
   async index(request: Request, response: Response) {
-    
+
     const filters = request.query;
 
     if (!filters.week_day || !filters.subject || !filters.time) {
